@@ -217,6 +217,20 @@ background-color: transparent;
 .exmpl2-h{
     margin: 30px;
 }
+.exmpl2>button{
+    margin-left: 55px;
+    border-radius: 35px;
+    background: rgb(149, 178, 38);
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    height: 30px;
+    position: absolute;
+    margin-top: 150px;
+}
+#blue-btn{
+    background: rgb(93, 88, 240);
+}
 
 #footer{
     background: rgb(1, 172, 253);
@@ -226,4 +240,40 @@ background-color: transparent;
 .logo-kid{
     display: flex;
 }
-
+.logo-kid>img{
+    width: 100px;
+    height: 100%;
+}
+.logo-kid>h1{
+    color: white;
+}
+.ankor{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 80px; 
+}
+.ankor>div>p{
+    color: white;
+    width: 300px;
+    margin-top: 40px;
+}
+.ankor1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 130px;
+}
+.ankor1>div>a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+#weight{
+    font-weight: 700;
+}
+.ankor2{
+    margin: 100px;
+}
+.ankor2>h2{
+    color: white;
+}
